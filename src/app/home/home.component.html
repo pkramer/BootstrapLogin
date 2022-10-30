@@ -1,0 +1,13 @@
+<p class="homeText">{{homeText}}</p>
+
+<br>
+<div *ngIf="isUserAuthenticated()" style="color:blue;">
+  <h2>
+    YOU ARE LOGGED IN
+  </h2>
+</div>
+
+<ul>
+  <li><a routerLink="/subjects">Subjects</a></li>
+</ul>
+
